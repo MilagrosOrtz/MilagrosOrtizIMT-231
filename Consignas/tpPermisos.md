@@ -14,7 +14,7 @@
 🔹 **Requisitos:**  
 - Solo el dueño puede leer y escribir.  
 - Otros usuarios solo pueden leerlo.  
-✅ **Permiso esperado:** `______`
+✅ **Permiso esperado:** `644`
 
 ---
 
@@ -23,7 +23,7 @@
 🔹 **Requisitos:**  
 - Solo el dueño puede leer, escribir y ejecutar.  
 - Nadie más puede acceder.  
-✅ **Permiso esperado:** `______`
+✅ **Permiso esperado:** `700`
 
 ---
 
@@ -31,7 +31,7 @@
 📁 **Archivo:** `publico.txt`  
 🔹 **Requisitos:**  
 - Todos pueden leer y escribir en él.  
-✅ **Permiso esperado:** `______`
+✅ **Permiso esperado:** `666`
 
 ---
 
@@ -40,7 +40,7 @@
 🔹 **Requisitos:**  
 - Solo el dueño puede leer y escribir.  
 - Nadie más debe tener acceso.  
-✅ **Permiso esperado:** `______`
+✅ **Permiso esperado:** `600`
 
 ---
 
@@ -48,7 +48,7 @@
 📁 **Archivo:** `instrucciones.txt`  
 🔹 **Requisitos:**  
 - Todos pueden leerlo, pero solo el dueño puede modificarlo.  
-✅ **Permiso esperado:** `______`
+✅ **Permiso esperado:** `544`
 
 ---
 
@@ -57,7 +57,7 @@
 🔹 **Requisitos:**  
 - Solo el dueño puede leerlo.  
 - Nadie más debe tener acceso.  
-✅ **Permiso esperado:** `______`
+✅ **Permiso esperado:** `400`
 
 ---
 
@@ -66,7 +66,7 @@
 🔹 **Requisitos:**  
 - Solo el dueño puede ejecutar el archivo.  
 - Nadie más puede leer ni modificarlo.  
-✅ **Permiso esperado:** `______`
+✅ **Permiso esperado:** `100`
 
 ---
 
@@ -74,7 +74,7 @@
 📁 **Archivo:** `compartido.doc`  
 🔹 **Requisitos:**  
 - Todos pueden leer y modificar el archivo.  
-✅ **Permiso esperado:** `______`
+✅ **Permiso esperado:** `555`
 
 ---
 
@@ -83,7 +83,7 @@
 🔹 **Requisitos:**  
 - Solo el dueño puede ejecutar el archivo.  
 - Todos los demás pueden ejecutarlo pero no modificarlo.  
-✅ **Permiso esperado:** `______`
+✅ **Permiso esperado:** `111`
 
 ---
 
@@ -93,7 +93,7 @@
 - Solo el dueño puede leer y escribir.  
 - El grupo del dueño puede leerlo.  
 - Otros usuarios no pueden acceder.  
-✅ **Permiso esperado:** `______`
+✅ **Permiso esperado:** `640`
 
 ---
 

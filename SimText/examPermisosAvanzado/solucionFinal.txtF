@@ -1,0 +1,28 @@
+Tarea1:
+	Para descomprimir el archivo: tar -xzvf examPermidosAvanzados.tar.gz
+	cd examPermisosAvanzados
+	ls -l
+	Asignar todos los permisos con recursividad chmod 777 -R examPermisosAvanzados
+
+Tarea2:
+	Permisos para la carpeta privateFIles: chmod 600 privateFiles
+	6(lectura y escritura para el propietario)
+	0(nada para grupos)
+	0(nada para otros)
+	Rellenar credentials.txt:
+	whoami > credentials.txt
+	Rellenar configMain.cfg:
+	echo "# Configuración Principal
+	PORT=8080
+	MODE=production" > configMain.cfg
+
+Tarea3:
+	Permisos para la carpeta publicZone
+	chmod 777 -R  publicZone
+	7(crear, leer y escribir para propietario, grupos y otros)
+	Rellenar readMeInfo.md:
+	nano readMeInfo.md
+	Rellenar runPublic.sh:
+	nano runPublic.sh
+	
+Tarea4: 

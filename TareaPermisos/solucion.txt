@@ -1,0 +1,49 @@
+Para descomprimir la carpeta: 
+tar -xzvf tpPracticoPermisos
+Asignacion de todos los permisos:
+chmod 777 -R (leer, excribir y ejecutar para todos con argumento -R para 
+que el permiso se extienda de forma recursiva a todos los archivos
+dentro la carpeta)
+
+Ejercicio1: 
+Para escribir sobre el archivo documento1.txt
+nano documento1.txt
+Permisos:
+6(lectura 4 + escritura 2 para el propietario)
+4(solo lectura para grupos)
+0(nada para otros)
+Comando: chmod 640 documento1.txt
+
+Ejercicio2:Para editar el script
+nano script.sh
+contenido: 
+#bin/bash
+echo "Ingresa tu nombre"
+read nombre
+echo "Hola,$nombre"
+cat script.sh
+Permisos:
+7(leer 4, escribir 2, ejecutar 1 para el propietario)
+1(ejecutar para grupos)
+1(ejeciutar para otros)
+comando: chmod 711 script.sh
+
+Ejercicio 3
+Permisos:
+6(leer 4 y escribir 2 para el propietario)
+0(nada para grupos)
+0(nada para otros)
+comando: chmod 600 script.sh
+
+Ejercicio 4
+Permisos:
+4(solo lectura para el propietario)
+0(nada para grupos)
+0(nada para otros)
+comando: chmod 400 secreto.key
+
+Enlace del repositorio:
+https://github.com/MilagrosOrtz/MilagrosOrtizIMT-231.git
+
+
+
